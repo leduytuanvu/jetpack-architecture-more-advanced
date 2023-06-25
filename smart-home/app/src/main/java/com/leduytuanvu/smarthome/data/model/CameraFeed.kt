@@ -1,4 +1,7 @@
 package com.leduytuanvu.smarthome.data.model
 
-class CameraFeed {
-}
+data class CameraFeed(
+    val id: String,
+    val name: String,
+    val url: String
+)
