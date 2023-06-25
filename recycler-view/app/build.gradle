@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.recyclerview'
+    namespace 'com.leduytuanvu.recyclerview'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.recyclerview"
+        applicationId "com.leduytuanvu.recyclerview"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -31,10 +31,6 @@ android {
 
     kotlinOptions {
         jvmTarget = '1.8'
-    }
-
-    dataBinding {
-        enabled = true
     }
 }
 
